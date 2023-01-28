@@ -1,0 +1,28 @@
+.App {
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.Content {
+  width: 100px;
+}
+.Content:hover img {
+  transform: scale(1.05);
+  
+}
+.Content img {
+  transition: all 0.3s;
+}
+img {
+  border-radius: 8px;
+  height: 100px;
+  width: 100px;
+}
+.label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
